@@ -5,6 +5,10 @@ header {
 	text-align: center;
 	vertical-align: middle;
 }
+.centered {
+	text-align: center;
+	vertical-align: middle;
+}
 #headingcolor2 {
 	background-color: #3b2b10;
 }
@@ -15,27 +19,29 @@ h2.title {
 	font-size: 40px;
 }
 h2 {
-	font-size: 30px;
+	font-size: 35px;
 }
 body {
 	background-color: #157e89;
 }
-p,
-ul.keyformat {
+p.BaseFormat,
+ul.BaseFormat,
+ol.BaseFormat {
 	background-color: white;
 	opacity: 0.5;
 	padding-left: 5px;
 	font-size: 32px;
 }
-h2.keyformat {
+h2.BaseFormat {
 	font-size: 80px;
 }
-.keyformat {
+.BaseFormat {
 	padding-left: 20px;
 }
 
-#3dModelBox {
+#ModelBox {
 	padding: 20px;
+	flex-shrink: 1.5;
 }
 
 #titlekey {
@@ -51,4 +57,27 @@ p,
 ol,
 ul {
 	font-family: "Spartan", sans-serif;
+}
+.padded {
+	padding-top: 40 px;
+}
+.sm-padded {
+	padding-top: 30px;
+}
+.photoExplantion {
+	font-size: 20px;
+	color: white;
+}
+.ListFormat {
+	display: flex;
+	justify-content: center;
+	align-content: left;
+	text-align: left;
+	padding-left: 75px;
+	padding-right: 30px;
+	flex-direction: column;
+	list-style: circle;
+	background-color: white;
+	opacity: 0.5;
+	font-size: 32px;
 }

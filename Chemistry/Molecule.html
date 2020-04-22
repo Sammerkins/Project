@@ -46,9 +46,10 @@
 		</header>
 		<!-- Link to 3D Model Final-->
 		<div class="container-fluid">
-			<div class="row">
-				<div id="3dModelBox" class="col">
+			<div class="row sm-padded">
+				<div class="col centered">
 					<iframe
+						id="ModelBox"
 						scrolling="no"
 						frameborder="0"
 						allowfullscreen="true"
@@ -59,14 +60,14 @@
 				</div>
 				<div class="col">
 					<div class="container-sm">
-						<h2 class="keyformat">Key</h2>
-						<p class="keyformat">
+						<h2 class="BaseFormat">Key</h2>
+						<p class="BaseFormat">
 							Black Sphere = Carbon Atom <br />
 							White Sphere = Hydrogen Atom<br />
 							Red Sphere = Oxygen Atom<br />
 							Blue Sphere = Nitrogen Atom<br />
 						</p>
-						<p class="keyformat">
+						<p class="BaseFormat">
 							Each Atom, Bond, and Angle are to scale meaning
 							that<br />
 							1 Centimeter = 1 Angstrom
@@ -75,34 +76,55 @@
 				</div>
 			</div>
 
-			<div class="row">
-				<h2>Phase Changes</h2>
-
-				<!--img here-->
-
-				<ol>
-					<!--float left-->
-					<li>Room temperature</li>
-					<li>Boiling point - 352 °F</li>
-					<li>Melting point - 460 °F</li>
-				</ol>
+			<div class="row padded centered">
+				<div class="col sm-padded">
+					<h2>Phase Changes</h2>
+					<img
+						src="https://wreg.com/wp-content/uploads/sites/18/2014/07/caffeine-powder.jpg?w=400&h=225&crop=1"
+					/>
+					<p class="photoExplantion">
+						While it is natrually found in plants, <br />
+						the pure form is a bitter crystalline powder<br />
+						Picture from source 2
+					</p>
+				</div>
+				<div class="col" style="padding-top: 40px;">
+					<ol class="ListFormat" style="height: 300px;">
+						<li>At room temperature Caffeine is a solid</li>
+						<li>Boiling point = 352 °F (1)</li>
+						<li>Melting point = 460 °F (1)</li>
+					</ol>
+				</div>
+			</div>
+			<div class="row padded">
+				<div class="col">
+					<h2>Other Important Information</h2>
+					<ul class="ListFormat" style="font-size: 20px;">
+						<li>Molecular weight = 194.19 g/mol(1)</li>
+						<li>Solubility= 10 to 50 mg/mL at 73° F (1)</li>
+						<li>Density = 1.23 at 64 °F (1)</li>
+						<li>Stability = Fairly stable(1)</li>
+						<li>
+							Conductivity is low. <br />
+							However coffee, containing caffeiene has about 40x
+							the conductivity of tap water. (4)
+						</li>
+						<li>
+							Reactivity = Caffeine is a weak base, but may
+							respond to strong oxidizing agents (3)
+						</li>
+					</ul>
+				</div>
+				<div class="col">
+					<h2>Fun Facts!</h2>
+					<ul>
+						<li>Fact 1</li>
+						<li>Fact 2</li>
+						<li>Fact 3</li>
+					</ul>
+				</div>
 			</div>
 		</div>
-		<h2>Other Important Information</h2>
-		<ul>
-			<li>Molecular weight - 194.19 g/mol</li>
-			<li>Solubility 10 to 50 mg/mL at 73° F</li>
-			<li>Density</li>
-			<li>Stability</li>
-			<li>Conductivity</li>
-			<li>Reactivity</li>
-		</ul>
-		<h2>Fun Facts!</h2>
-		<ul>
-			<li>Fact 1</li>
-			<li>Fact 2</li>
-			<li>Fact 3</li>
-		</ul>
 		<script
 			src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
