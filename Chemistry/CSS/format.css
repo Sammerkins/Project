@@ -42,6 +42,7 @@ h2.BaseFormat {
 #ModelBox {
 	padding: 20px;
 	flex-shrink: 1.5;
+	flex-grow: 1.5;
 }
 
 #titlekey {
@@ -80,4 +81,7 @@ ul {
 	background-color: white;
 	opacity: 0.5;
 	font-size: 32px;
+}
+.maxWidth {
+	max-width: 100%;
 }
