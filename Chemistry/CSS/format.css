@@ -1,9 +1,9 @@
 header {
-	background-color: #6f4e37;
+	background-color: #664730;
 	text-align: center;
 }
-h1{
-	size: 30;
+h1 {
+	font-size: 70px;
 }
 body {
 	background-color: #385970;
@@ -12,8 +12,8 @@ h1,
 h2,
 h3,
 p {
+	font-family: "Philosopher", sans-serif;
 	color: white;
 }
-.header {
 	vertical-align: middle;
 }
