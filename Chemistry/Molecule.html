@@ -46,8 +46,8 @@
 		</header>
 		<!-- Link to 3D Model Final-->
 		<div class="container-fluid">
-			<div class="row sm-padded">
-				<div class="col centered">
+			<div class="row row-cols-1 row-cols-md-2 sm-padded">
+				<div class="col centered flexible">
 					<iframe
 						id="ModelBox"
 						scrolling="no"
@@ -77,7 +77,7 @@
 			</div>
 
 			<div class="row padded centered">
-				<div class="col sm-padded">
+				<div class="col">
 					<h2>Phase Changes</h2>
 					<img
 						src="https://wreg.com/wp-content/uploads/sites/18/2014/07/caffeine-powder.jpg?w=400&h=225&crop=1"
@@ -88,46 +88,71 @@
 						Picture from source 2
 					</p>
 				</div>
-				<div class="col" style="padding-top: 40px;">
-					<ol class="ListFormat" style="height: 300px;">
+				<div class="col">
+					<ol class="ListFormat" id="PhaseList">
 						<li>At room temperature Caffeine is a solid</li>
-						<li>Boiling point = 352 °F (1)</li>
-						<li>Melting point = 460 °F (1)</li>
+						<li>Boiling point = 352 °F</li>
+						<li>Melting point = 460 °F</li>
 					</ol>
 				</div>
 			</div>
 			<div class="row padded">
-				<div class="col">
+				<div class="col-8">
 					<h2>Other Important Information</h2>
-					<ul
-						class="ListFormat"
-						style="font-size: 20px; padding-left: 30px;"
-					>
-						<li>Molecular weight = 194.19 g/mol(1)</li>
+					<ul id="ImportantInfo" class="ListFormat">
+						<li>Molecular weight = 194.19 g/mol</li>
 						<li>Solubility= 10 to 50 mg/mL at 73° F (1)</li>
-						<li>Density = 1.23 at 64 °F (1)</li>
-						<li>Stability = Fairly stable(1)</li>
+						<li>Density = 1.23 at 64 °F</li>
+						<li>Stability = Fairly stable</li>
 						<li>
-							Conductivity is low. <br />
-							However coffee, containing caffeiene has about 40x
-							the conductivity of tap water. (4)
+							Conductivity is low.
 						</li>
 						<li>
 							Reactivity = Caffeine is a weak base, but may
-							respond to strong oxidizing agents (3)
+							respond to strong oxidizing agents
 						</li>
 					</ul>
 				</div>
-				<div class="col">
-					<h2>Fun Facts!</h2>
-					<ul>
-						<li>Fact 1</li>
-						<li>Fact 2</li>
-						<li>Fact 3</li>
-					</ul>
+				<div class="col-4" id="coffeeImage">
+					<img src="Images/coffee.jpg" />
+					<h3>
+						However coffee, containing caffeiene has about 40x the
+						conductivity of tap water.
+					</h3>
 				</div>
 			</div>
+			<div class="centered BaseFormat padded">
+				<h2>Where Caffeine is found</h2>
+				<img src="Images/coffeePlant.jpg" />
+				<h3 id="FunFact2">
+					Caffeine is found in either the leaves or beans of over 60
+					plants
+				</h3>
+				<h4>
+					Shown above is a picture of the berries of the coffee plant
+				</h4>
+			</div>
+
+			
+				
+			
+			<div class="padded BaseFormat" id=lastpadding;">
+
+			<img
+					src="Images/coffee-clipart-coffee-cafe-tea-473792f37a637365.jpg"
+					style="float: right;"
+					class="padded;"
+				/>
+				<h2>Medicinal Properties</h2>
+				<h3>
+					Caffeine is often used as a medicinal substance, as it
+					decreases inflamation and promotes stimulation. It is also
+					higly addictive, however, within reasonable limits, it is
+					still up for debate as to any benefits or negative side effects.
+				</h3>
+			</div>
 		</div>
+
 		<script
 			src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -144,4 +169,46 @@
 			crossorigin="anonymous"
 		></script>
 	</body>
+	<footer
+		class="margin"
+		style="background-color: white; opacity: 0.5; padding-bottom: 30px;"
+	>
+		<h2 id="titleFooter">Works Cited</h2>
+		<p class="worksCited">
+			“Chemical Search Engine.” ChemicalBook, www.chemicalbook.com/.
+			Marta, Richard A., et al. “Infrared Vibrational Spectra as a
+			Structural Probe of Gaseous Ions Formed by Caffeine and
+			Theophylline.”
+		</p>
+		<p class="worksCited">
+			Physical Chemistry Chemical Physics, The Royal Society of Chemistry,
+			4 Mar. 2010,
+			pubs.rsc.org/en/content/articlelanding/2010/cp/b921102k#!divAbstract.
+		</p>
+
+		<p class="worksCited">
+			“MDN Web Docs.” MDN Web Docs, 21 Apr. 2020, developer.mozilla.org/.
+			Simoes. “Size of Atoms.” Astronoo,
+			www.astronoo.com/en/articles/size-of-atoms.html.
+		</p>
+
+		<p class="worksCited">
+			Taylor, Eryn, and CBS News Wire. “FDA Issues Warning to Distributors
+			of Pure Powdered Caffeine.” WREG.com, 2 Sept. 2015,
+			wreg.com/news/fda-issues-warning-to-distributors-of-pure-powdered-caffeine/.
+		</p>
+		<p class="worksCited">
+			Siegal, Braden. Technical Help - CAD and 3D Modeling. 17-19 Apr.
+			2020.
+		</p>
+		<p class="worksCited">
+			Strutz, Nathan. Technical Help - Website Design and Code. 21-22 Apr.
+			2014.
+		</p>
+		<div>
+			<h2 style="padding-top: 50px; color: black; padding-bottom: 50px;">
+				Made by Samantha Strutz
+			</h2>
+		</div>
+	</footer>
 </html>
