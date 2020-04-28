@@ -9,7 +9,9 @@ html {
 	}
 }
 body {
-	background-image: url("https://static.wixstatic.com/media/aab435_deae7d6ea6f440209025274453679b60~mv2_d_4500_3200_s_4_2.jpg/v1/fill/w_4499,h_3200,al_c,q_85/aab435_deae7d6ea6f440209025274453679b60~mv2_d_4500_3200_s_4_2.webp");
+	background-color: rgb(40, 98, 121);
+	/* background-image: url("https://previews.123rf.com/images/leaf/leaf0807/leaf080700018/3277639-a-bubbling-water-background-abstract.jpg"); */
+	/*  */
 	background-size: cover;
 }
 .parallax {
@@ -40,4 +42,9 @@ body {
 	font-size: 100px;
 	color: white;
 	text-align: center;
+}
+.paragraphs {
+	background-image: url("https://static.wixstatic.com/media/aab435_deae7d6ea6f440209025274453679b60~mv2_d_4500_3200_s_4_2.jpg/v1/fill/w_4499,h_3200,al_c,q_85/aab435_deae7d6ea6f440209025274453679b60~mv2_d_4500_3200_s_4_2.webp");
+	height: 1000px;
+	font-size: 36px;
 }
