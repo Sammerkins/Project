@@ -1,0 +1,43 @@
+body,
+html {
+	height: 100%;
+}
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+	.parallax {
+		background-attachment: scroll;
+	}
+}
+body {
+	background-image: url("https://static.wixstatic.com/media/aab435_deae7d6ea6f440209025274453679b60~mv2_d_4500_3200_s_4_2.jpg/v1/fill/w_4499,h_3200,al_c,q_85/aab435_deae7d6ea6f440209025274453679b60~mv2_d_4500_3200_s_4_2.webp");
+	background-size: cover;
+}
+.parallax {
+	/* The image used */
+	background-image: url("https://www.outsideonline.com/sites/default/files/styles/width_1200/public/2020/01/15/yosemite-valley-camping_h.jpg?itok=ESbpZ02R");
+	/* Full height */
+	height: 120%;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 30px;
+}
+
+.titleBox {
+	display: flex;
+	margin: 50px;
+
+	justify-content: center;
+	background-color: rgb(157, 234, 236);
+	opacity: 0.2;
+	position: relative;
+}
+.titleFont {
+	margin-top: 100px;
+	font-size: 100px;
+	color: white;
+	text-align: center;
+}
