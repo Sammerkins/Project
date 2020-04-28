@@ -25,9 +25,21 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin: 30px;
+	margin: 40px;
 }
 
-.paragraph {
+.MainBody {
 	background-image: url("https://sammerkins.github.io/Project/English/Photos/stars2.jpg");
+	height: 400px;
+	font-size: 36px;
+	margin: 40px;
+}
+.paragraph {
+	padding: 20px;
+	background-color: rgb(28, 28, 124, 0.4);
+}
+#BeginningText {
+	color: white;
+	margin: 20px;
+	font-size: 40px;
 }
