@@ -18,7 +18,7 @@ body {
 	/* The image used */
 	background-image: url("https://www.outsideonline.com/sites/default/files/styles/width_1200/public/2020/01/15/yosemite-valley-camping_h.jpg?itok=ESbpZ02R");
 	/* Full height */
-	height: 120%;
+	height: 100%;
 
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
@@ -28,23 +28,6 @@ body {
 	margin: 30px;
 }
 
-.titleBox {
-	display: flex;
-	margin: 50px;
-
-	justify-content: center;
-	background-color: rgb(157, 234, 236);
-	opacity: 0.2;
-	position: relative;
-}
-.titleFont {
-	margin-top: 100px;
-	font-size: 100px;
-	color: white;
-	text-align: center;
-}
-.paragraphs {
-	background-image: url("https://static.wixstatic.com/media/aab435_deae7d6ea6f440209025274453679b60~mv2_d_4500_3200_s_4_2.jpg/v1/fill/w_4499,h_3200,al_c,q_85/aab435_deae7d6ea6f440209025274453679b60~mv2_d_4500_3200_s_4_2.webp");
-	height: 1000px;
-	font-size: 36px;
+.paragraph {
+	background-image: url("https://sammerkins.github.io/Project/English/Photos/stars2.jpg");
 }
