@@ -27,14 +27,57 @@ body {
 	background-size: cover;
 	margin: 40px;
 }
+#rowOfBoxes {
+	margin-top: 8%;
+	background-color: #346095;
+	padding-bottom: 2%;
+}
+.parallax2 {
+	/* The image used */
+	background-image: url("https://abcdefghijklmn-pqrstuvwxyz.com/wp-content/uploads/2015/12/raisin.jpg");
+	/* Full height */
+	height: 120%;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 32%;
+}
+
+.parallax3 {
+	/* The image used */
+	background-image: url("./Photos/FrederickDouglassCover.jpg");
+	/* Full height */
+	height: 120%;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 29%;
+}
+
+.parallax4 {
+	/* The image used */
+	background-image: url("./Photos/OfPlymouthPlantationFinal.jpg");
+	/* Full height */
+	height: 120%;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 33%;
+}
 
 .MainBody {
-	background-image: url("https://sammerkins.github.io/Project/English/Photos/stars2.jpg");
-	height: 400px;
+	background-image: url("./Photos/stars2.jpg");
 	font-size: 36px;
 	margin: 40px;
 }
 .paragraph {
+	margin-top: 20px;
 	padding: 20px;
 	background-color: rgb(28, 28, 124, 0.4);
 }
