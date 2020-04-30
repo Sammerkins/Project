@@ -117,7 +117,7 @@ body {
 .thing {
 	font-size: 60px;
 }
-#conclusion {
+.conclusion {
 	margin-top: 300px;
 	color: white;
 
@@ -140,4 +140,17 @@ body {
 	text-align: left;
 	padding-left: 50px;
 	font-size: 80px;
+}
+#signature {
+	text-align: center;
+	padding-top: 200px;
+	color: white;
+	font-size: 70px;
+	line-height: 130%;
+}
+#class {
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	padding-bottom: 30px;
 }
