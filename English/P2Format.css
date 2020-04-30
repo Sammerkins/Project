@@ -1,0 +1,103 @@
+body,
+html {
+	height: 100%;
+	font-family: "Archivo Narrow", sans-serif;
+}
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+	.parallax {
+		background-attachment: scroll;
+	}
+}
+
+.titleFont {
+	padding-top: 30px;
+	font-size: 200px;
+	color: #090601;
+	background-color: #c7a107cc;
+	text-align: center;
+	font-family: "Archivo Black", sans-serif;
+}
+.heading,
+body {
+	background-color: #ffff99;
+}
+.parallax {
+	/* The image used */
+	background-image: url("./Photos/araisininthesun_horizontal_title2.jpg");
+
+	/* Full height */
+	margin-top: 20px;
+	height: 100%;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 90%;
+	margin: 40px;
+}
+
+#TITLE {
+	font-size: 100px;
+}
+#CONTEXT {
+	width: 500px;
+	margin-top: 50px;
+	padding-top: 30px;
+	font-size: 50px;
+	color: #090601;
+	background-color: #c7a107cc;
+	text-align: left;
+	font-family: "Archivo Black", sans-serif;
+}
+#Context {
+	text-indent: 50px;
+	font-size: xx-large;
+	margin: 30px;
+	margin-left: 80px;
+}
+#DREAMS {
+	width: 500px;
+	margin-top: 50px;
+	padding-top: 30px;
+	font-size: 50px;
+	color: #090601;
+
+	text-align: left;
+	font-family: "Archivo Black", sans-serif;
+}
+#Dreams {
+	background-color: #c7a107cc;
+	padding-top: 30px;
+	margin: 30px;
+
+	font-size: xx-large;
+	line-height: 50px;
+}
+#SUM {
+	width: 500px;
+	padding-top: 30px;
+	margin-top: 30px;
+	font-size: 50px;
+	color: #090601;
+	background-color: #c7a107cc;
+	text-align: left;
+	font-family: "Archivo Black", sans-serif;
+}
+#Sum {
+	font-size: xx-large;
+	padding-top: 30px;
+	margin: 30px;
+	margin-left: 80px;
+	margin-bottom: 50px;
+}
+.line {
+	border-radius: 2px;
+	color: rgb(82, 63, 44);
+}
+#HomeButton {
+	margin-top: 40px;
+	align-content: center;
+	font-size: 80px;
+}

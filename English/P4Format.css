@@ -1,0 +1,83 @@
+body,
+html {
+	height: 100%;
+	background-color: #4e372a;
+	font-family: "Handlee", cursive;
+}
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+	.parallax {
+		background-attachment: scroll;
+	}
+}
+
+.titleFont {
+	font-size: 90px;
+	color: white;
+	text-align: center;
+	background-color: #9c8e946e;
+	font-family: "Homemade Apple", cursive;
+	padding-top: 20px;
+}
+.parallax {
+	/* The image used */
+	background-image: url("./Photos/Thanksgiving.jpg");
+	/* Full height */
+	height: 100%;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 40px;
+}
+.titleBox {
+	padding-top: 70px;
+	background-color: #9c8e9459;
+}
+#HCONTEXT {
+	width: 500px;
+	font-size: 50px;
+	color: #090601;
+	text-align: left;
+}
+#MainBody {
+	background-image: url(./Photos/paper2.jpg);
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: xx-large;
+	line-height: 50px;
+	color: #090601;
+}
+#DREAMS {
+	width: 300px;
+	margin-top: 50px;
+	padding-top: 30px;
+	font-size: 50px;
+	color: #090601;
+
+	text-align: left;
+}
+
+#SUM {
+	width: 300px;
+	margin-top: 50px;
+	padding-top: 30px;
+	font-size: 50px;
+	color: #090601;
+
+	text-align: left;
+}
+.box {
+	background-color: rgba(255, 215, 186, 0.322);
+	padding-left: 20px;
+}
+#HomeButton {
+	margin-top: 40px;
+	align-content: center;
+	font-size: 80px;
+}
